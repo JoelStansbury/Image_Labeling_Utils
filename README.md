@@ -6,10 +6,14 @@ Simple functions which assist in hand labeling images for machine learning purpo
 >>import image_labeling_utils as ilu
 >>coords = ilu.multipoint(path/to/image.jpg)
 ```
-[image]: [capture.png]
+<dl>
+  <img src="examples/multipoint.png" alt="Multipoint" width="300" height="400">
+</dl>
 
-LEFT CLICK: add coordinate at pointer location
+LEFT CLICK: add coordinate at pointer location (colors the marked pixels red)
+
 RIGHT CLICK: remove last coordinate
+
 RETURN: close window and return list of coords
 ```
 RETURNS:
