@@ -4,7 +4,7 @@ Simple functions which assist in hand labeling images for machine learning purpo
 ## multipoint()
 ```
 >>import image_labeling_utils as ilu
->>coords = ilu.multipoint(path/to/image.jpg)
+>>coords = ilu.multipoint("path/to/image.jpg")
 ```
 <dl>
   <img src="examples/multipoint.png" alt="Multipoint" width="300" height="400">
